@@ -32,7 +32,7 @@ export const Inicio = () => {
             setTipoNotificacao(null);
             setMensagemNotificacao("");
             setDispararNotificacao(false);
-        }, 4000)
+        }, 1000)
 
     }, [setTipoNotificacao, setMensagemNotificacao, setDispararNotificacao]);
 

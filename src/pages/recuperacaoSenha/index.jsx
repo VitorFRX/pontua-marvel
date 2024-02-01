@@ -152,6 +152,10 @@ const ContainerRecuperacao = styled.div`
     align-items: center;
 
     column-gap: 140px;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    };
 `;
 
 const LogoPontua = styled(ReactSVG)`
@@ -161,6 +165,18 @@ const LogoPontua = styled(ReactSVG)`
     position: absolute;
 
     margin: 49px 0 0 106px;
+
+    @media (max-width: 768px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin: 20px 0 0 106px;
+
+        svg {
+            width: 100px;
+        }
+    };
 `;
 
 const RecuperacaoForm = styled.div`
@@ -182,8 +198,10 @@ const RecuperacaoForm = styled.div`
     gap: 24px;
 
     @media (max-width: 768px) {
+        width: 340px;
         height: 400px;
 
+        margin-bottom: 60px;
         padding: 14px;
     };
 
@@ -243,4 +261,14 @@ const LabelRecuperacao = styled.p`
 const Ilustracao = styled(ReactSVG)`
     width: 100%;
     max-width: 614px;
+
+    @media (max-width: 768px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        svg {
+            width: 360px;
+        }
+    };
 `;

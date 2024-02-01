@@ -210,8 +210,6 @@ const Pagination = styled.div`
     align-items: center;
     justify-content: center;
 
-    padding: 0 16px;
-
     margin: 0 auto;
 `;
 
