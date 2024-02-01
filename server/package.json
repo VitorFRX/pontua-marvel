@@ -1,0 +1,23 @@
+{
+  "name": "apipontua",
+  "version": "1.0.0",
+  "description": "API para autenticação JWT pontua",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env index.js",
+    "dev": "nodemon --env-file=.env index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vítor Félix Rodrigues (mastergr99@gmai.com)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "handlebars": "^4.7.8",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^6.9.8",
+    "nodemon": "^3.0.3"
+  }
+}

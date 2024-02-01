@@ -1,0 +1,17 @@
+<svg width="123" height="124" viewBox="0 0 123 124" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="loading">
+<g id="Group 9">
+<path id="Ellipse 15" d="M122.883 62.0587C122.883 95.8582 95.4832 123.258 61.6837 123.258C27.8843 123.258 0.484375 95.8582 0.484375 62.0587C0.484375 28.2593 27.8843 0.859375 61.6837 0.859375C95.4832 0.859375 122.883 28.2593 122.883 62.0587ZM15.1722 62.0587C15.1722 87.7463 35.9961 108.57 61.6837 108.57C87.3713 108.57 108.195 87.7463 108.195 62.0587C108.195 36.3711 87.3713 15.5472 61.6837 15.5472C35.9961 15.5472 15.1722 36.3711 15.1722 62.0587Z" fill="url(#paint0_angular_4316_27604)"/>
+<circle id="Ellipse 16" cx="62.2457" cy="115.464" r="7.79451" fill="#00113D"/>
+<circle id="Ellipse 17" cx="114.795" cy="61.7945" r="7.79451" fill="#00113D"/>
+<circle id="Ellipse 18" cx="7.79451" cy="61.7945" r="7.79451" fill="#00113D"/>
+<circle id="Ellipse 19" cx="61.7945" cy="8.79451" r="7.79451" fill="#00113D"/>
+</g>
+</g>
+<defs>
+<radialGradient id="paint0_angular_4316_27604" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(61.6837 62.0587) rotate(90) scale(61.1994)">
+<stop stop-color="#04AE53"/>
+<stop offset="1" stop-color="#D9D9D9" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>

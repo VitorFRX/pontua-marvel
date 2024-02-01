@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="email.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+        <title>E-Mail Bonii</title>
+
+        <style>
+            * {
+                margin: 0 auto;
+                padding: 0;
+
+                box-sizing: border-box;
+
+                font-family: 'Poppins', sans-serif;
+            }
+
+            body {
+                width: 100%;
+                height: 100vh;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            button {
+                padding: 10px 40px;
+
+                font-family: "Poppins", sans-serif; 
+                font-weight: 400; 
+                font-size: 16px; 
+
+                background: transparent;
+
+                border: 1px solid #252525;
+                border-radius: 6px;
+            }
+
+            button a {
+                text-decoration: none;
+                color: #000;
+            }
+
+            footer {
+                font-family: "Poppins", sans-serif; 
+                font-weight: 400;
+                font-size: 12px; 
+                line-height: 150%;
+            }
+
+            .emailContainer {
+                max-width: 100%; 
+                width: 720px;
+                height: 600px;
+
+                padding: 16px;
+
+                display: flex;
+                flex-direction: column;
+                
+                justify-content: space-between;
+
+                border-radius: 8px;
+
+                gap: 40px;
+
+                box-shadow: 2px 4px 20px 2px rgba(0, 0, 0, 0.25);
+            }
+
+            .header {
+                width: 100%;
+                
+                display: flex;
+                align-items: center;
+            }
+
+            svg {
+                width: 87px;
+                height: 40px;
+            }
+
+            .body {
+                max-width: 100%;
+                width: 757px;
+
+                display: flex;
+                flex-direction: column;
+
+                gap: 30px;
+            }
+
+            .titleSubitleContainer {
+                display: flex;
+                flex-direction: column;
+
+                margin-bottom: 40px;
+
+                gap: 10px;
+            }
+
+            .body .title {
+                text-align: center;
+
+                font-family: "Poppins", sans-serif; 
+                font-weight: bolder;
+                font-size: 34px; 
+                line-height: 150%;
+
+                color: #000;
+            }
+
+            .body .subtitle {
+                width: 600px;
+
+                font-family: "Poppins", sans-serif; 
+                font-weight: normal;
+                font-size: 16px; 
+                line-height: 150%;
+
+                color: #606060;
+            }
+
+            .codigoContainer {
+                padding: 14px 60px;
+
+                margin-bottom: 40px;
+
+                border-radius: 6px;
+
+                background: #000;
+            }
+
+            .codigoContainer p {
+                font-family: "Poppins", sans-serif; 
+                font-weight: normal;
+                font-size: 20px; 
+                line-height: 150%;
+
+                color: #f1f1f1;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="emailContainer">
+            <div class="header">
+                <svg width="87" height="40" viewBox="0 0 87 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_2076_5147)">
+                        <path d="M17.5102 8.92534V21.1622C17.5102 24.5111 16.2104 27.1259 13.9317 28.6932C16.2104 29.6336 17.5102 31.3596 17.5102 33.661C17.5102 37.2678 14.2566 39.5175 9.05333 39.5175H0V-0.228516H7.96743C13.8206 -0.228516 17.5102 3.27511 17.5102 8.92534ZM7.96743 27.8044C12.0313 27.8044 14.5816 25.2412 14.5816 21.1622V8.92534C14.5816 4.84638 12.0355 2.28314 7.96743 2.28314H2.92866V27.8044H7.97154H7.96743ZM9.05333 37.0099C12.4674 37.0099 14.5816 35.7005 14.5816 33.661C14.5816 31.6215 12.4674 30.3121 9.05333 30.3121H2.92866V37.0059H9.05333V37.0099Z" fill="black"/>
+                        <path d="M31.985 39.7715C26.5637 39.7715 23.2031 36.3869 23.2031 30.9351V8.60791C23.2031 3.1521 26.5637 -0.228516 31.985 -0.228516C37.4063 -0.228516 40.7134 3.15607 40.7134 8.60791V30.9311C40.7134 36.3869 37.3528 39.7675 31.985 39.7675V39.7715ZM31.985 37.3471C35.5635 37.3471 37.7847 34.8712 37.7847 30.9351V8.60791C37.7847 4.66782 35.5635 2.19585 31.985 2.19585C28.4064 2.19585 26.1318 4.67179 26.1318 8.60791V30.9311C26.1318 34.8712 28.4064 37.3432 31.985 37.3432V37.3471Z" fill="black"/>
+                        <path d="M50.4169 32.1175V7.77466L59.314 32.1175H64.9985V-0.228516H62.0699V31.5144L50.4169 -0.228516H47.4883V32.1175H50.4169Z" fill="black"/>
+                        <path d="M76.5966 -0.228516V39.7159H73.668V-0.228516H76.5966Z" fill="black"/>
+                        <path d="M87.0009 -0.228516V39.7159H84.0723V-0.228516H87.0009Z" fill="black"/>
+                        <path d="M47.5176 36.8672H65.0484V39.6923H47.5176V36.8672Z" fill="black"/>
+                    </g>
+
+                    <defs>
+                        <clipPath id="clip0_2076_5147">
+                            <rect width="87" height="40" fill="white"/>
+                        </clipPath>
+                    </defs>
+                </svg>
+
+                <button>
+                    <a href="https://www.bonii.com.br">Vá para a Bonii</a>
+                </button>
+            </div>
+
+            <div class="body">
+                <div class="titleSubitleContainer">
+                    <h1 class="title">Olá {{ nome }}, Seja Bem Vindo(a) à Bonii 🤍</h1>
+                    <p class="subtitle">Informe o código abaixo na janela de confirmação para confirmar sua conta.</p>
+                </div>
+
+                <div class="codigoContainer">
+                    <p>{{ codigo }}</p>
+                </div>
+
+                <p>Se você não se inscreveu na Bonii, por gentileza ignore esta mensagem!</p>
+            </div>
+
+            <footer>Este e-mail foi enviado de forma segura, contendo verificação e criptografia de ponta a ponta. Não compartilhe nenhuma informação repassada aqui.</footer>
+        </div>
+    </body>
+</html>
